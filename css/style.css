@@ -1,0 +1,42 @@
+body {
+    background-color: #96D4D4;
+    font-family: verdana;
+    color: black;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.box {
+    background-color: #282A35;
+    color: #96D4D4;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+}
+
+.body-div {
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+
+#tom-dani {
+    height: 50%;
+}
