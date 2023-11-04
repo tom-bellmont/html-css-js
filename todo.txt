@@ -1,0 +1,11 @@
+Create photo collage 
+Add navigation bar 
+Write homepage blurb, explainer
+Rename walks to routes
+Add photo page
+Add video page
+Add Wildlife page
+Create walk submission form
+Set up backend db to store walk data
+Add special guest page
+Add quotes page

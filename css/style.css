@@ -1,7 +1,11 @@
+
+@import url('https://fonts.cdnfonts.com/css/dummkopf-demo');
+                
+
 body {
-    background-color: #96D4D4;
+    background-color: #415d37;
     font-family: verdana;
-    color: black;
+    color: white;
 }
 
 p {
@@ -9,34 +13,59 @@ p {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 300;
+    font-family: 'Dummkopf DEMO', sans-serif;
+    letter-spacing: 5px;
+    line-height: 16px;
+    vertical-align: text-top;
 }
 
 h2 {
     font-size: 26px;
     font-weight: 300;
+    text-align: center;
 }
 
-.box {
-    background-color: #282A35;
-    color: #96D4D4;
-    padding: 20px;
-    border: 1px solid;
-    border-radius: 5px;
-    width: 50%;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    display: flex;
-    gap: 25px;
+li {
+  display: inline;
+  color: white;
 }
 
-.body-div {
-    padding-left: 5%;
-    padding-right: 5%; 
+#nav-div {
+    height: 80px;
+    border-bottom-style: solid;
 }
 
-#tom-dani {
-    height: 50%;
+#title-div {
+    padding-left: 15px;
+    padding-top: 6px;
+    display: inline-flex;
+}
+
+nav {
+    display: inline-flex;
+    font-size: 30px;
+    word-spacing: 50px;
+    padding-left: 100px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: coral;
 }
